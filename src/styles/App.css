@@ -3,15 +3,3 @@
   margin: 0%;
   padding: 0%;
 }
-
-.expenses-header {
-  display: flex;
-}
-
-.expenses-header :nth-child( 1 ) {
-  margin-right: 3px;
-}
-
-.expenses-header :nth-child( 2 ) {
-  margin-right: 4px;
-}

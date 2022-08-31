@@ -39,8 +39,10 @@ class Login extends React.Component {
     return (
       <section className="login-form-container">
         <form className="login-form" onSubmit={ this.submitForm }>
-          <h1>TrybeWallet</h1>
-          <FontAwesomeIcon className="icon-sack-dollar" icon={ faSackDollar } />
+          <div className="title-login-form">
+            <h1>TrybeWallet</h1>
+            <FontAwesomeIcon className="icon-sack-dollar" icon={ faSackDollar } />
+          </div>
           <input
             type="text"
             name="emailInput"

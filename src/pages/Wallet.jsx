@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Table from '../components/Table';
 import WalletForm from '../components/WalletForm';
 import { fetchApi } from '../redux/actions';
+import '../styles/Wallet.css';
 
 class Wallet extends React.Component {
   componentDidMount() {
@@ -14,7 +15,7 @@ class Wallet extends React.Component {
 
   render() {
     return (
-      <main>
+      <main className="main-container">
         <Header />
         <WalletForm />
         <Table />

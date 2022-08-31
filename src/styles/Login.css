@@ -16,13 +16,15 @@
   width: 520px;
 }
 
-.login-form h1 {
-  margin: 20px 0 40px;
+.title-login-form {
+  display: flex;
+  margin: 20px 0 35px;
 }
 
 .icon-sack-dollar {
-  height: 100px;
-  width: 50px;
+  height: 52px;
+  margin-left: 13px;
+  width: 32px;
 }
 
 .login-form input , .login-form button {

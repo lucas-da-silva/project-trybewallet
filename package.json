@@ -25,7 +25,7 @@
     "redux-thunk": "2.4.1",
     "stylelint-order": "5.0.0"
   },
-  "homepage": "project-trybewallet/",
+  "homepage": "https://lucas-da-silva.github.io/project-trybewallet/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
